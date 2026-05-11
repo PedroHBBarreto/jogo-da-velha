@@ -39,16 +39,17 @@ Instruções para rodar o código localmente:
 2. Acesse o repositório clonado, compile e execute manualmente ou por comandos.
     >   ```bash
     >   cd jogo-da-velha
-    >   gcc "jogo_da_velha.cpp" -o "jogo_da_velha.exe" && ./"jogo_da_velha.exe"
+    >   g++ jogo_da_velha.cpp -o jogo_da_velha.exe
+    >   .\jogo_da_velha.exe
     >   ```
 
 3. Caso deseje editar o código:
     >   Selecione o arquivo e abra com o editor de texto de sua escolha ou digite no terminal algum dos comandos a seguir:
     - Abrir no **Notepad**:
         >   ```bash
-        >   notepad "jogo_da_velha.cpp"
+        >   notepad jogo_da_velha.cpp
         >   ```
     - Abrir no **Visual Studio Code**:
         >   ```bash
-        >   code "jogo_da_velha.cpp"
+        >   code jogo_da_velha.cpp
         >   ```
