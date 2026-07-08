@@ -243,8 +243,16 @@ int menu(){
     system("cls");
     printf("\t╔═════════════════╗\n");
     printf("\t║  JOGO DA VELHA  ║\n");
-    printf("\t╚═════════════════╝\n");
-    printf("\n\n");
+    printf("\t╚═════════════════╝\n\n");
+    
+    printf(COR_X "\n░██    ░██" RESET "               " COR_O "  ░██████  " RESET);
+    printf(COR_X "\n ░██  ░██ " RESET "               " COR_O " ░██   ░██ " RESET);
+    printf(COR_X "\n  ░██░██  " RESET "               " COR_O "░██     ░██" RESET);
+    printf(COR_X "\n   ░███   " RESET "    ░██████    " COR_O "░██     ░██" RESET);
+    printf(COR_X "\n  ░██░██  " RESET "               " COR_O "░██     ░██" RESET);
+    printf(COR_X "\n ░██  ░██ " RESET "               " COR_O " ░██   ░██ " RESET);
+    printf(COR_X "\n░██    ░██" RESET "               " COR_O "  ░██████  " RESET);
+    printf("\n\n\n");
     printf("1) Jogar\n");
     printf("2) Placar (10 melhores)\n");
     printf("3) Instrucoes\n");
